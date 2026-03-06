@@ -4,16 +4,12 @@
     box-sizing:border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* Dark navy background */
 body{
     background: linear-gradient(135deg,#0f172a,#020617);
     color:#e2e8f0;
     padding:30px;
     line-height:1.6;
 }
-
-/* Header styling */
 header{
     background: rgba(255,255,255,0.05);
     backdrop-filter: blur(10px);
@@ -23,7 +19,7 @@ header{
     margin-bottom:40px;
 }
 
-/* Main content glass block */
+
 main{
     background: rgba(255,255,255,0.04);
     backdrop-filter: blur(8px);
@@ -32,18 +28,16 @@ main{
     border-radius:12px;
 }
 
-/* Footer */
 footer{
     margin-top:40px;
     text-align:center;
     color:#94a3b8;
 }
 
-/* Headings */
+
 h1{
     margin-bottom:10px;
 }
-
 h2{
     margin-top:20px;
 }
@@ -51,14 +45,10 @@ h2{
 h3{
     margin-top:15px;
 }
-
-/* Paragraph spacing */
 p{
     margin:10px 0 20px 0;
     color:#cbd5f5;
 }
-
-/* Buttons */
 button{
     background:#3b82f6;
     color:white;
@@ -73,8 +63,6 @@ button{
 button:hover{
     background:#2563eb;
 }
-
-/* Input */
 input{
     padding:10px;
     border-radius:6px;
@@ -82,12 +70,10 @@ input{
     margin-right:6px;
 }
 
-/* Sections spacing */
+
 section{
     margin-top:30px;
 }
-
-/* Feature blocks */
 section div{
     background: rgba(255,255,255,0.05);
     padding:15px;
@@ -96,15 +82,13 @@ section div{
     border:1px solid rgba(255,255,255,0.08);
 }
 
-/* Stats section layout */
 main section:first-of-type{
     display:flex;
     gap:20px;
     flex-wrap:wrap;
 }
-
-/* CTA text center */
 #e{
     text-align:center;
     margin-top:40px;
+
 }
